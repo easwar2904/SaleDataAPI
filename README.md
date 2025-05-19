@@ -48,8 +48,8 @@ POST /api/analytics/GetTopProductsOverall
 ```json
 {
   "topN": 5,
-  "startDate": "2024-01-01",
-  "endDate": "2024-12-31",
+  "startDate": "2025-05-19T20:08:48.384Z",
+  "endDate": "2025-05-19T20:08:48.384Z",
   "category": "Electronics", 
   "region": "North"           
 }
