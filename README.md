@@ -50,8 +50,8 @@ POST /api/analytics/GetTopProductsOverall
   "topN": 5,
   "startDate": "2024-01-01",
   "endDate": "2024-12-31",
-  "category": "Electronics",  // Optional
-  "region": "North"           // Optional
+  "category": "Electronics", 
+  "region": "North"           
 }
 Functionality Supported:
 
