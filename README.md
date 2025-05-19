@@ -53,50 +53,7 @@ POST /api/analytics/GetTopProductsOverall
   "category": "Electronics", 
   "region": "North"           
 }
-**## Functionality Supported:**
 
-# Overall Top Products
-
-# By Category
-
-# By Region
-
-Leave category or region null to omit that filter.
-
-**##  Project Structure**
-Models: Entity definitions for Customer, Product, Order, OrderDetail
-
-Services: Data import, analytics logic
-
-Controllers: API entry points
-
-Data: SalesDbContext configured for MySQL
-
-Logs: Written to /Logs/log_yyyyMMdd.txt on error
-
-**## Prerequisites**
-.NET 8 SDK
-
-MySQL Server
-
-Ensure Pomelo.EntityFrameworkCore.MySql is installed for EF Core MySQL support
-
-
-
-
-**## Sample CSV Header Format**
-
-Order ID	Product ID	Customer ID	Product Name	Category	Region	Date of Sale	Quantity Sold	Unit Price	Discount	Shipping Cost	Payment Method	Customer Name	Customer Email	Customer Address
-
-## Project Setup
-
-### Step 1: Create the Project
-
-Create a new project using the **.Net Web API** with **.NET 8**.
-
-### Step 2: Open Package Manager Console
-
-Navigate to:
 
 ```
 Tools → NuGet Package Manager → Package Manager Console
