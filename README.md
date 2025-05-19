@@ -53,17 +53,17 @@ POST /api/analytics/GetTopProductsOverall
   "category": "Electronics", 
   "region": "North"           
 }
-Functionality Supported:
+**## Functionality Supported:**
 
-✅ Overall Top Products
+# Overall Top Products
 
-✅ By Category
+# By Category
 
-✅ By Region
+# By Region
 
 Leave category or region null to omit that filter.
 
-🗂 Project Structure
+**##  Project Structure**
 Models: Entity definitions for Customer, Product, Order, OrderDetail
 
 Services: Data import, analytics logic
@@ -74,25 +74,19 @@ Data: SalesDbContext configured for MySQL
 
 Logs: Written to /Logs/log_yyyyMMdd.txt on error
 
-📦 Prerequisites
+**## Prerequisites**
 .NET 8 SDK
+
 MySQL Server
+
 Ensure Pomelo.EntityFrameworkCore.MySql is installed for EF Core MySQL support
 
 
 
 
-📁 Sample CSV Header Format
+**## Sample CSV Header Format**
 
 Order ID	Product ID	Customer ID	Product Name	Category	Region	Date of Sale	Quantity Sold	Unit Price	Discount	Shipping Cost	Payment Method	Customer Name	Customer Email	Customer Address
-✍️ License
-This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
-
----
 
 ## Project Setup
 
