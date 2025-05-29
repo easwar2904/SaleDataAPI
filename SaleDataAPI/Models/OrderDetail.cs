@@ -15,7 +15,7 @@ namespace Lumel_Assessment.Models
         public int OrderId { get; set; }
         public Order Order { get; set; } = default!;
 
-        public string ProductRefId { get; set; }
+        public string? ProductRefId { get; set; }
         public int ProductId { get; set; }
         public Product Product { get; set; } = default!;
 
